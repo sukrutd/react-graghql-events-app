@@ -1,0 +1,81 @@
+.main-container {
+  margin: 5rem 2.5rem;
+}
+.form-control > label,
+.form-control > input,
+.form-control > textarea {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+.form-control > label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.form-control > input {
+  height: 2rem;
+  border: 1px solid #a0a0a0;
+  border-radius: 3px;
+}
+.form-control {
+  margin: 1rem 0;
+}
+.form-actions {
+  text-align: center;
+}
+.form-actions > button,
+.btn {
+  font: inherit;
+  background-color: #01d1d1;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #01d1d1;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-actions > button:not(:last-of-type),
+.btn:not(:last-of-type) {
+  margin-right: 1rem;
+}
+.btn:hover,
+.btn:active,
+.form-actions > button:hover,
+.form-actions > button:active {
+  background-color: #6ce7e7;
+  border: 1px solid #6ce7e7;
+  color: #a111da;
+}
+.btn:focus,
+.form-actions > button:focus {
+  outline: none;
+}
+.list {
+  margin: 2rem auto;
+  width: 30rem;
+  max-width: 100%;
+  list-style: none;
+}
+.list-item {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-item h2,
+.list-item h3,
+.list-item h4 {
+  margin: 0;
+}
+.list-item p {
+  margin: 0.5rem 0;
+}
+.list-item > .left-column {
+  color: #a111da;
+}
+.list-item > .right-column {
+  text-align: right;
+}
